@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Note App</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gudea:ital@1&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="flex-container">
+      <div>
+        <h1 class="syookheading">Syook Note App</h1>
+        <!-- <hr style="width: 100%" /> -->
+      </div>
+      <div style="margin-top: 10px">
+        <input id="addTitle" class="form__input" placeholder="Add Note Title" />
+      </div>
+      <div><input id="saveInput" type="hidden" /></div>
+      <div style="margin-top: 10px">
+        <input id="addTxt" class="form__input" placeholder="Your note" />
+      </div>
+      <div style="margin-top: 10px">
+        <input id="color" class="form__input" placeholder="Choose Red, Green, Blue, Yellow" />
+      </div>
+      <div>
+        <button id="addBtn">+</button>
+        <button id="saveBtn" style="display: none">Save</button>
+      </div>
+      <div>
+        <input
+          id="search"
+          style="margin-top: 20px"
+          class="form__input"
+          placeholder="Search by title and note"
+        />
+      </div>
+      <div>
+        <h1>Your note</h1>
+      </div>
+
+      <!-- <hr /> -->
+      <div id="notes"></div>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+
+.flex-container {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    font-family: arial;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.syookheading {
+    color:#fff;
+    margin: 10px;
+}
+
+#addBtn {
+    color: rgb(255, 255, 255);
+    background-color: rgb(34, 185, 34);
+    height: 40px;
+     width: 40px;  
+    border-radius: 20px;
+    border-width: 0px;
+    cursor: pointer;
+    box-shadow: 2px 3px 4px #888888;
+    padding: auto;
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+#addBtn:hover {
+    background-color: rgb(103, 216, 103);
+    cursor: pointer;
+    border-width: 0px;
+}
+
+#saveBtn {
+    color: rgb(255, 255, 255);
+    background-color: rgb(37, 34, 185);
+    height: 30px;
+    width: 90px;
+    border-radius: 15px;
+    border-width: 0px;
+    cursor: pointer;
+    box-shadow: 2px 3px 4px #888888;
+    padding: 3px;
+    margin-top: 10px;
+}
+
+#saveBtn:hover {
+    background-color: rgb(159, 154, 212);
+    cursor: pointer;
+}
+
+.form__input {
+    font-family: "Roboto", sans-serif;
+    color: #333;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    padding: 1.5rem 2rem;
+    border-radius: 0.2rem;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    width: 90%;
+    display: block;
+    border-bottom: 0.3rem solid transparent;
+    transition: all 0.3s;
+    text-align: center;
+}
+
+.note-list {
+    width: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.noteCard {
+    background-color: white;
+    border-radius: 3px;
+    margin-top: 10px;
+    color: #203a43;
+    height: auto;
+    padding-bottom: 10px;
+}
+
+.edit {
+    color: blue;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.remove {
+    color: red;
+    cursor: pointer;
+    margin: 10px;
+
+}
+
+.notetxt {
+    text-align: left;
+    background-color: #888888;
+    font-family: 'Gudea', sans-serif;
+}
+
+.notenumber {
+    text-align: left;
+    margin: 2px;
+}
+
+.button {
+    align-items: right;
+    float: right;
+}
+.red{
+    background-color: rgb(233, 118, 118);
+}
+
+.green{
+    background-color: rgb(128, 221, 128);
+}
+.yellow{
+    background-color: rgb(241, 241, 127);
+}
+.blue{
+    background-color: rgb(117, 117, 235);
+}
+
